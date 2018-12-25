@@ -29,7 +29,7 @@ namespace S01E05_Phonomoton
 
             try
             {
-                var pageBody = _httpClient.GetStringAsync(urlString).GetAwaiter().GetResult();
+                var pageBody = _httpClient.GetStringAsync(url).GetAwaiter().GetResult();
 
                 var page = new HtmlDocument();
                 page.LoadHtml(pageBody);
