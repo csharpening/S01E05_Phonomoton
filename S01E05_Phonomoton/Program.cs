@@ -86,7 +86,7 @@ namespace S01E05_Phonomoton
             public string Name { get; }
 
             /// <summary>
-            /// Some aspects are more important than others.
+            /// Some aspects are more important than others (affect the final score more).
             /// By default, the weight is 1 but this may be increased for more important aspects.
             /// </summary>
             public double Weight { get; set; } = 1;
